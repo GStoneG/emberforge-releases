@@ -1,0 +1,110 @@
+<p align="center"><a href="README.md">Русский</a> · <b>English</b></p>
+
+<p align="center">
+  <img src="assets/emberforge.png" width="96" alt="Emberforge" />
+</p>
+
+<h1 align="center">Emberforge</h1>
+
+<p align="center">
+  <b>Crafting assistant for Path of Exile 1 and 2</b>, in English and Russian.<br/>
+  Craft faster without memorising mod texts and without fear of rerolling a good item.
+</p>
+
+<p align="center">
+  <a href="https://github.com/GStoneG/emberforge-releases/releases/latest/download/Emberforge.exe"><b>⬇ Download Emberforge.exe</b></a>
+  &nbsp;·&nbsp; Windows 10/11 · single file · no installation
+</p>
+
+![Emberforge interface](assets/screenshot.png)
+
+<sub>Main screen mockup: a hit while rolling a T17 map, with the overlay shown above the game. The interface can also be switched to English.</sub>
+
+---
+
+## Why you need it
+
+Crafting in Path of Exile means hundreds of identical actions: pick up an orb, click the item, read the mods, decide what to do next. It is slow and tiring, and it is easy to make a mistake: one extra click and the mod you spent fifty orbs on is gone.
+
+**Emberforge takes over the routine.** You describe once what you want, and on every step the program:
+
+1. **reads the item** the same way you do, by copying its text (Ctrl+C);
+2. **checks** whether the wanted result appeared;
+3. **decides** which orb to use next and applies it when you press the key;
+4. **stops by itself** as soon as the target is reached, and never touches the good item again.
+
+## Features
+
+### 🎯 Targets without memorising mods
+Start typing “life”, “cold res” or “attack speed”, and Emberforge shows the mods exactly as the game writes them. The database has **8,200+ PoE1 mods and 2,200+ PoE2 mods**. Set the minimum value, prefix or suffix, the required tier (T1, T2…) and how many mods from the list must match.
+
+### 🗺️ Rolling T17 maps and Waystones
+Set “Item Quantity ≥ 90%”, “More Currency”, “Pack Size” and a list of mods you never want (reflect, “players cannot regenerate”…). Emberforge chaoses the map until it is right. You can queue **several maps at once**: the program goes through them one by one.
+
+### ⛓️ Real crafting chains
+Not just spamming one orb, but a chain that thinks about every step:
+
+> Transmutation → **Alteration ⇄ Augmentation** → **Regal** → **Exalted ⇄ Annulment** → on failure: Scouring or Chaos
+
+- **Smart Augmentation:** looking for a suffix but Alteration only gave a prefix? Emberforge augments the free slot instead of rerolling for nothing.
+- **Regal Orb** when the magic item has the wanted mods and no junk.
+- **Exalted Orb** while free slots can finish the target; **Annulment** when a junk mod takes the space.
+- **Limits** for every orb (e.g. “at most 5 Exalted”) so you never burn expensive currency.
+
+Simple modes are there too: Chaos, Alteration, Essence or any other currency spam.
+
+### 🛡️ Protection from mistakes
+- **Lock on hit.** Once the target appears, no more clicks happen however often you press.
+- **Check before every action.** If you crafted something by hand, the program notices and will not ruin the item.
+- **Lag protection.** If the item did not change after an action (lag, out of currency, a missed click), the program stops instead of throwing a second orb blindly.
+- **Wrong item.** If a different item is under the cursor, crafting stops.
+- **Emergency stop** with one key, even in the middle of an action.
+
+### 🔍 Check without spending currency
+Copy an item in the game (Ctrl+Alt+C) and press “Check item from clipboard”: matching mods turn green, forbidden ones red. Handy for tuning a target before spending orbs.
+
+### 🪟 Works above the game
+A compact translucent panel next to the game window shows the status, the number of attempts and hotkey hints. It does not catch the mouse and does not get in the way. Hotkeys work right inside the game.
+
+### 🌐 English and Russian interface
+On first launch the program asks for the language; you can switch it in Settings at any time, no restart needed. The interface language is independent of the game: Russian and English clients of PoE1 and PoE2 are supported.
+
+### 📚 Catalog
+Official English and Russian names of orbs, essences, fossils, resonators, Delirium orbs and base items, searchable in both languages, copied with one click.
+
+## How it works
+
+Emberforge does what you would do by hand: it moves the mouse, presses keys and reads the item text from the clipboard. It **does not read the game's memory, does not inject into the process and does not modify game files.**
+
+**Safe mode (default):** one key press from you is one action in the game. This follows Grinding Gear Games' rule “one key press, one server action”.
+
+> ⚠️ There is also an **auto mode** where the program clicks by itself. It directly breaks GGG's rules and can get you banned, so it is off by default and can only be enabled after explicitly accepting the risk. Use Emberforge at your own risk.
+
+## Quick start
+
+1. **Download** [Emberforge.exe](https://github.com/GStoneG/emberforge-releases/releases/latest/download/Emberforge.exe) and run it; choose English on the first screen.
+2. Switch Path of Exile to **“Windowed”** or **“Windowed fullscreen”**.
+3. **Target & profiles:** pick a ready profile (e.g. “T17 map: item quantity 90%+”) or find the mods you want with the search.
+4. **Calibration:** press “Record” next to a currency, hover the stack in the game and press `F4`. Same for the item.
+5. In the game press **`F2`** until **“HIT!”** lights up. Swap the item and keep pressing `F2`. Emergency stop: `F10`.
+
+## FAQ
+
+**Windows says “Windows protected your PC”.**
+The program has no paid code-signing certificate. Click “More info” → “Run anyway”. The checksum of every release is next to it in `Emberforge.exe.sha256`.
+
+**Key presses do not reach the game.**
+If the game runs as administrator, run Emberforge as administrator too: Windows does not let normal programs control elevated windows.
+
+**I cannot see the panel above the game.**
+Use windowed or windowed fullscreen mode: in exclusive fullscreen Windows does not show windows above the game.
+
+**Does it support the English game client?**
+Yes. The client language is detected automatically; PoE1 and PoE2 are supported. Note: the mod search database contains the texts of the Russian client with English references, so with the English client type mod texts as the game shows them.
+
+**How do I update?**
+Just download the file from the same link: it always points to the latest version. Profiles and settings are kept in `%AppData%\Emberforge`.
+
+---
+
+<sub>Source code is closed. Emberforge is an independent project, not affiliated with Grinding Gear Games.</sub>

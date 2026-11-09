@@ -16,11 +16,16 @@
   &nbsp;·&nbsp; Windows 10/11 · single file · no installation
 </p>
 
-![Emberforge interface](assets/screenshot.png)
+![Emberforge interface](assets/screenshot-en.png)
 
-<sub>Main screen mockup: a hit while rolling a T17 map, with the overlay shown above the game. The interface can also be switched to English.</sub>
+<sub>Main screen mockup (English interface): a hit while rolling a T17 map, with the overlay shown above the game.</sub>
 
 ---
+
+> ### 🛡️ Safe crafting, within the game rules
+> In **safe mode** (on by default) Emberforge never presses anything by itself: **one key press from you is one action in the game**. That is exactly what Grinding Gear Games requires: “one key press, one server action”. The program does not read the game's memory, does not inject into the process and does not modify game files; it only helps you avoid mistakes and never ruin a good item.
+>
+> You craft faster without risking a ban for auto-clicking. Auto mode, which breaks the rules, is off and can only be enabled after explicitly accepting the risk.
 
 ## Why you need it
 

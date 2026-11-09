@@ -36,7 +36,7 @@ Crafting in Path of Exile means hundreds of identical actions: pick up an orb, c
 ## Features
 
 ### 🎯 Targets without memorising mods
-Start typing “life”, “cold res” or “attack speed”, and Emberforge shows the mods exactly as the game writes them. The database has **8,200+ PoE1 mods and 2,200+ PoE2 mods**. Set the minimum value, prefix or suffix, the required tier (T1, T2…) and how many mods from the list must match.
+Start typing “life”, “cold res” or “attack speed”, and Emberforge shows the mods exactly as the game writes them. The database has **8,200+ PoE1 mods and 2,200+ PoE2 mods** with texts of both the English and the Russian client. Set the minimum value, prefix or suffix, the required tier (T1, T2…) and how many mods from the list must match.
 
 ### 🗺️ Rolling T17 maps and Waystones
 Set “Item Quantity ≥ 90%”, “More Currency”, “Pack Size” and a list of mods you never want (reflect, “players cannot regenerate”…). Emberforge chaoses the map until it is right. You can queue **several maps at once**: the program goes through them one by one.
@@ -100,7 +100,7 @@ If the game runs as administrator, run Emberforge as administrator too: Windows 
 Use windowed or windowed fullscreen mode: in exclusive fullscreen Windows does not show windows above the game.
 
 **Does it support the English game client?**
-Yes. The client language is detected automatically; PoE1 and PoE2 are supported. Note: the mod search database contains the texts of the Russian client with English references, so with the English client type mod texts as the game shows them.
+Yes. The client language is detected automatically; PoE1 and PoE2 are supported. Next to the mod search choose “English game client”, and conditions get the mod texts exactly as the English client shows them.
 
 **How do I update?**
 Just download the file from the same link: it always points to the latest version. Profiles and settings are kept in `%AppData%\Emberforge`.

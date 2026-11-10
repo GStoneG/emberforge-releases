@@ -102,7 +102,7 @@ Emberforge does what you would do by hand: it moves the mouse, presses keys and 
 1. **Download** [Emberforge.exe](https://github.com/GStoneG/emberforge-releases/releases/latest/download/Emberforge.exe) and run it; choose English on the first screen.
 2. Switch Path of Exile to **“Windowed”** or **“Windowed fullscreen”**.
 3. **Target & profiles:** pick a ready profile (e.g. “T17 map: item quantity 90%+”) or find the mods you want with the search.
-4. **Calibration:** press “Record” next to each currency, hover its stack in the game and press `F4`. Record the place of the item the same way.
+4. **Calibration:** press “Record” next to each orb, hover its stack in the game and press `F4`. Orb positions are shared by all profiles, so you record them once. Record the place of the item the same way.
 5. In the game press **`F2`** until **“HIT!”** lights up. Swap the item and keep pressing `F2`. Emergency stop: `F10`.
 
 ## FAQ

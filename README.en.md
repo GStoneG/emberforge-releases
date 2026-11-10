@@ -41,7 +41,7 @@ Crafting in Path of Exile means hundreds of identical actions: pick up an orb, c
 ## Features
 
 ### 🎯 Targets without memorising mods
-Start typing “life”, “cold res” or “attack speed”, and Emberforge shows the mods exactly as the game writes them. The database has **8,600+ PoE1 mods and 3,500+ PoE2 mods** with texts of both the English and the Russian client. Set the minimum value, whether the mod must be a prefix or a suffix and the required tier (T1, T2…). Mark mods “Required” and ask for any N of the rest: e.g. life required + any 2 of 5 resistances.
+Start typing “life”, “cold res” or “attack speed” right in the mod box, and Emberforge suggests the mods exactly as the game writes them. The database has **8,600+ PoE1 mods and 3,500+ PoE2 mods** with texts of both the English and the Russian client. Set the minimum value, whether the mod must be a prefix or a suffix and the required tier (T1, T2…). Mark mods “Required” and ask for any N of the rest: e.g. life required + any 2 of 5 resistances.
 
 ### 🗺️ Rolling T17 maps and Waystones
 Set “Item Quantity ≥ 90%”, “More Currency”, “Pack Size” and a list of mods you never want (reflect, “players cannot regenerate”…). Emberforge chaoses the map until it is right. You can queue **several maps at once**: the program goes through them one by one.

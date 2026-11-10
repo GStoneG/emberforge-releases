@@ -53,7 +53,8 @@ Not just spamming one orb, but a chain that thinks about every step:
 
 - **Smart Augmentation:** looking for a suffix but Alteration only gave a prefix? Emberforge uses an Orb of Augmentation on the free slot instead of rerolling the item for nothing.
 - **Regal Orb** when the magic item has the wanted mods and no junk.
-- **Magic item first:** press the “Magic” button next to 1–2 wanted mods and the program first rolls them on the magic item, then uses a Regal Orb and finishes the other mods with Exalted Orbs and Annulment. If an Annulment removes a marked mod, the chain starts over with an Orb of Scouring.
+- **Two lists: magic and rare item.** The “Magic item” list says what to roll before the Regal Orb: required mods plus “one of” the others (e.g. life + chaos **or** fire). The “Rare item” list is the finished item (e.g. life + any 2 of 5 resistances).
+- **Reactions after the Regal Orb and Exalts:** wanted mod → go on, junk → Annulment, Scouring and restart, or stop (set separately for the Regal and for Exalts). You choose how many Exalted Orbs go into one item. If a required magic-item mod is lost, the chain starts over.
 - **Chain diagram:** the stages are shown as blocks and the current one lights up while crafting.
 - **Exalted Orb** while a missing mod can still land in a free slot; **Orb of Annulment** when a junk mod takes the space.
 - **Limits** for every orb (e.g. “at most 5 Exalted”) so you never burn expensive currency.

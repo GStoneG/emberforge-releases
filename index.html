@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Emberforge — автокрафт для Path of Exile 1 и 2, бесплатно</title>
+<meta name="description" content="Бесплатная программа для крафта в PoE 1 и PoE 2: спам сферой перемен и хаоса, цепочки со сферой царей и возвышения, эссенции, роллинг карт T17, крафт кластеров с ценами трейда, 6-линк. Безопасный режим: одно нажатие — одно действие." />
+<meta name="keywords" content="автокрафт poe, автокрафт path of exile, программа для крафта poe, помощник крафта poe, крафт poe 2, крафт кластеров poe, 6 линк poe, спам сферой перемен, роллинг карт t17, бот для крафта poe, альтернатива Advanced Stash Helper" />
+<link rel="canonical" href="https://gstoneg.github.io/emberforge-releases/" />
+<link rel="alternate" hreflang="ru" href="https://gstoneg.github.io/emberforge-releases/" />
+<link rel="alternate" hreflang="en" href="https://gstoneg.github.io/emberforge-releases/en/" />
+<link rel="alternate" hreflang="x-default" href="https://gstoneg.github.io/emberforge-releases/" />
+<link rel="icon" href="assets/emberforge.png" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Emberforge — автокрафт для Path of Exile 1 и 2, бесплатно" />
+<meta property="og:description" content="Бесплатная программа для крафта в PoE 1 и PoE 2: спам сферой перемен и хаоса, цепочки со сферой царей и возвышения, эссенции, роллинг карт T17, крафт кластеров с ценами трейда, 6-линк. Безопасный режим: одно нажатие — одно действие." />
+<meta property="og:url" content="https://gstoneg.github.io/emberforge-releases/" />
+<meta property="og:image" content="https://gstoneg.github.io/emberforge-releases/assets/screenshot.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Emberforge", "applicationCategory": "GameApplication", "operatingSystem": "Windows 10, Windows 11", "description": "Бесплатная программа для крафта в PoE 1 и PoE 2: спам сферой перемен и хаоса, цепочки со сферой царей и возвышения, эссенции, роллинг карт T17, крафт кластеров с ценами трейда, 6-линк. Безопасный режим: одно нажатие — одно действие.", "url": "https://gstoneg.github.io/emberforge-releases/", "downloadUrl": "https://github.com/GStoneG/emberforge-releases/releases/latest/download/Emberforge-win-Setup.exe", "inLanguage": ["ru", "en"], "image": "https://gstoneg.github.io/emberforge-releases/assets/screenshot.png", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Emberforge бесплатный?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Скачать и пользоваться можно бесплатно, без регистрации и подписки."}}, {"@type": "Question", "name": "Это бот? За автокрафт банят?", "acceptedAnswer": {"@type": "Answer", "text": "В безопасном режиме (по умолчанию) программа ничего не нажимает сама: одно ваше нажатие — одно действие в игре. Авто-режим нарушает правила игры и может привести к бану, поэтому он выключен и включается только после явного согласия с риском."}}, {"@type": "Question", "name": "Поддерживается Path of Exile 2?", "acceptedAnswer": {"@type": "Answer", "text": "Да: путевые камни, цепочки крафта, сущности и подсказки предзнаменований."}}, {"@type": "Question", "name": "Чем отличается от Advanced Stash Helper (ASH)?", "acceptedAnswer": {"@type": "Answer", "text": "Emberforge бесплатный целиком, а у ASH полная версия стоит 8 $ в месяц (по данным его сайта на ноябрь 2026). В Emberforge по умолчанию работает режим «одно нажатие — одно действие», есть анализ цен кластеров с трейда. Emberforge не связан с ASH."}}]}</script>
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --line:#262b35; --text:#e8e6e3; --muted:#a3a9b5; --accent:#ff6a1a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 16px; }
+  header { display:flex; justify-content:space-between; align-items:center; padding:18px 0; }
+  header .brand { display:flex; gap:10px; align-items:center; font-weight:600; font-size:18px; color:var(--text); text-decoration:none; }
+  header .brand img { width:32px; height:32px; }
+  header a.lang { color:var(--muted); text-decoration:none; }
+  .hero { text-align:center; padding:40px 0 24px; }
+  h1 { font-size:clamp(28px, 4.5vw, 44px); line-height:1.2; margin:0 0 16px; }
+  .lead { color:var(--muted); font-size:18px; max-width:720px; margin:0 auto 28px; }
+  .btn { display:inline-block; background:var(--accent); color:#111; font-weight:600; padding:14px 28px; border-radius:10px; text-decoration:none; }
+  .sub { color:var(--muted); font-size:14px; margin-top:12px; }
+  .sub a { color:var(--muted); }
+  .shot { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:12px; margin:32px 0; }
+  h2 { font-size:26px; margin:40px 0 16px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:18px 20px; }
+  .card h3 { margin:0 0 8px; font-size:18px; color:var(--accent); }
+  .card p { margin:0; color:var(--muted); }
+  details { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 20px; margin-bottom:10px; }
+  summary { cursor:pointer; font-weight:600; }
+  details p { color:var(--muted); margin:10px 0 0; }
+  .more { margin:28px 0; }
+  .more a { color:var(--accent); }
+  footer { color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding:20px 0 32px; margin-top:40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="https://gstoneg.github.io/emberforge-releases/"><img src="assets/emberforge.png" alt="" />Emberforge</a>
+    <a class="lang" href="en/" hreflang="en">English</a>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Автокрафт и помощник крафта для Path of Exile 1 и 2</h1>
+      <p class="lead">Задайте нужные моды — Emberforge сам решит, какую сферу применить, и остановится на попадании. Бесплатно, на русском и английском.</p>
+      <a class="btn" href="https://github.com/GStoneG/emberforge-releases/releases/latest/download/Emberforge-win-Setup.exe">Скачать бесплатно</a>
+      <p class="sub">Windows 10/11 · обновляется сама · <a href="https://github.com/GStoneG/emberforge-releases/releases/latest/download/Emberforge.exe">или один файл без установки</a></p>
+    </section>
+    <img class="shot" src="assets/screenshot.png" alt="Интерфейс Emberforge: роллинг карты T17 и оверлей поверх игры" width="1240" height="820" />
+    <h2>Что умеет</h2>
+    <div class="grid">
+      <div class="card"><h3>Цепочки крафта</h3><p>Сфера превращения → сфера перемен ⇄ сфера усиления → сфера царей → сфера возвышения ⇄ сфера отмены. Реакции на ненужный мод и лимиты на каждую сферу.</p></div>
+      <div class="card"><h3>Крафт кластеров</h3><p>Цены всех сочетаний пассивок кластерного самоцвета с официального трейда и один профиль на все выгодные сочетания.</p></div>
+      <div class="card"><h3>Роллинг карт T17</h3><p>Количество предметов, больше валюты, размер групп и запрещённые моды — для карт и путевых камней, пачкой.</p></div>
+      <div class="card"><h3>6 гнёзд и 6-линк</h3><p>Сфера златокузнеца до нужного числа гнёзд, потом сфера соединения до 6 связей. Можно только гнёзда или только связи.</p></div>
+      <div class="card"><h3>PoE 2</h3><p>Подсказки предзнаменований левши и правши, сущности вместо сферы царей, база модов PoE 2 с русскими названиями.</p></div>
+      <div class="card"><h3>Безопасный режим</h3><p>Одно ваше нажатие — одно действие в игре, как требует GGG. Не читает память игры и не внедряется в процесс.</p></div>
+    </div>
+    <h2>Частые вопросы</h2>
+      <details><summary>Emberforge бесплатный?</summary><p>Да. Скачать и пользоваться можно бесплатно, без регистрации и подписки.</p></details>
+      <details><summary>Это бот? За автокрафт банят?</summary><p>В безопасном режиме (по умолчанию) программа ничего не нажимает сама: одно ваше нажатие — одно действие в игре. Авто-режим нарушает правила игры и может привести к бану, поэтому он выключен и включается только после явного согласия с риском.</p></details>
+      <details><summary>Поддерживается Path of Exile 2?</summary><p>Да: путевые камни, цепочки крафта, сущности и подсказки предзнаменований.</p></details>
+      <details><summary>Чем отличается от Advanced Stash Helper (ASH)?</summary><p>Emberforge бесплатный целиком, а у ASH полная версия стоит 8 $ в месяц (по данным его сайта на ноябрь 2026). В Emberforge по умолчанию работает режим «одно нажатие — одно действие», есть анализ цен кластеров с трейда. Emberforge не связан с ASH.</p></details>
+    <p class="more"><a href="https://github.com/GStoneG/emberforge-releases#readme">Подробное описание всех функций →</a></p>
+  </main>
+  <footer>Emberforge — независимый проект, не связанный с Grinding Gear Games. Path of Exile — товарный знак Grinding Gear Games.</footer>
+</div>
+</body>
+</html>

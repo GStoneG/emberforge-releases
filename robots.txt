@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gstoneg.github.io/emberforge-releases/sitemap.xml

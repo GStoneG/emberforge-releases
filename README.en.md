@@ -18,7 +18,7 @@
 
 ![Emberforge interface](assets/screenshot-en.png)
 
-<sub>Main screen mockup (English interface): a hit while rolling a T17 map, with the overlay shown above the game.</sub>
+<sub>Main screen: the ring crafting chain reached its target, “HIT!”, the wanted mods are highlighted in green.</sub>
 
 ---
 
@@ -86,6 +86,8 @@ Copy an item in the game (Ctrl+C; Ctrl+Alt+C is needed only for a tier filter) a
 Currency prices come from poe.ninja for the chosen league (chaos in PoE1, exalts in PoE2), so you see what a session and a single hit cost. “Odds” estimates the chance per attempt and the average cost from the game's mod weights. For now PoE1 only and only for the Chaos, Alteration and Alteration + Augmentation strategies: the PoE2 game data has no real mod weights. “Search on trade” opens the official trade site with the base and the wanted mods to estimate the price.
 
 ### 💠 What to craft on a cluster jewel
+![The “Clusters” page: trade prices of notable combos](assets/clusters-en.png)
+
 The “Clusters” page: choose the jewel (large, medium, small), the enchant, the passive count, the item level and the league. The program collects prices of every full notable combo (3 notables on a large cluster) from the official trade site, straight from your PC and within the site’s rate limits, and keeps them on disk with their check history. “Fill in missing prices” searches by each notable (one search prices many combos) and fills in the rest; “Refresh all data” re-checks everything at a gentle pace (one to three hours, on its own). The table sorts by any column and filters by a minimum selling price (e.g. from 1 Divine Orb), and “One profile for all combos” makes one “Crafting chain” profile for the whole list: the auto crafter stops on any of its combos. Every combo has a “Trade” button to check the price by hand.
 
 Sockets and links (PoE1): the “Sockets and links (6-link)” strategy uses Jeweller's Orbs until the item has the sockets it needs, then Orbs of Fusing until enough of them are linked (e.g. 6 sockets and 6 links). The target says what to make: sockets only, links only (on the sockets the item has, no Jeweller's Orbs) or sockets then links, and how many. Unique items work too. 6 sockets exist only on body armours and two-handed weapons of item level 50+, which the program checks.

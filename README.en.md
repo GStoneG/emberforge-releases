@@ -158,27 +158,27 @@ On the “Clusters” page pick the jewel and the enchant: the program collects 
 **How do I 6-link body armour?**
 The “Sockets and links” strategy: Jeweller's Orbs up to 6 sockets, then Orbs of Fusing up to 6 links. You can also choose sockets only or links only.
 
-## Emberforge and Advanced Stash Helper (ASH)
+## Emberforge, Advanced Stash Helper (ASH) and Path of Craft
 
-Looking for a PoE autocraft tool and know Advanced Stash Helper (poeautocraft.com)? The short difference, based on the ASH website as of November 2026:
+Looking for a PoE autocraft tool and know Advanced Stash Helper (poeautocraft.com) or Path of Craft (pathofcraft.net)? The short difference, based on their websites as of November 2026:
 
-| | Emberforge | Advanced Stash Helper (ASH) |
-|---|---|---|
-| Price | free, every feature | free trial; full version $8/month ($4/month billed yearly) |
-| PoE 1 and PoE 2 | yes | yes, one subscription |
-| “One key press, one action” mode | yes, on by default | — |
-| Alteration, Augmentation, Regal, Chaos, essences | yes | yes (in the trial) |
-| Exalted and Annulment, chains with junk-mod reactions | yes | Exalted and Annulment in the paid version |
-| T17 map rolling | yes | map crafting in the trial; advanced T16.5 and T17 in the paid version |
-| Cluster jewels | trade prices of every combo + one profile for all | cluster combos (comb craft) in the paid version |
-| Sockets and links (6-link) | yes | yes (in the trial) |
-| Harvest, fossils | fossils as custom currency; no Harvest | in the paid version |
-| Interface | English and Russian | English and Russian |
+| | Emberforge | Advanced Stash Helper (ASH) | Path of Craft |
+|---|---|---|---|
+| Price | free, every feature | free trial; full $8/month ($4/month billed yearly) | Basic free; Premium $7/month, $15/league or $90 lifetime |
+| PoE 1 and PoE 2 | yes, one program | yes, one subscription | separate programs for PoE 1 and PoE 2 |
+| “One key press, one action” mode | yes, on by default | — | — |
+| Alteration, Augmentation, Chaos, essences | yes | yes (trial) | yes (Basic) |
+| Rare items: Regal, Exalted, Annulment | yes, with junk-mod reactions | Exalted and Annulment paid | Premium |
+| T17 map rolling | yes | map crafting in the trial; T16.5 and T17 paid | map crafting in Premium |
+| Cluster jewels | trade prices of every combo + one profile for all | combos (comb craft) paid | cluster price search in Premium |
+| Sockets and links (6-link) | yes | yes (trial) | yes (Basic) |
+| Harvest, fossils | fossils as custom currency; no Harvest | paid | Basic |
+| Russian interface | yes | yes | — |
 
-<sub>Emberforge is not affiliated with Advanced Stash Helper; names belong to their owners. If something here is out of date, tell us and we will fix it.</sub>
+<sub>Emberforge is not affiliated with Advanced Stash Helper or Path of Craft; names belong to their owners. If something here is out of date, tell us and we will fix it.</sub>
 
 ---
 
 <sub>Source code is closed. Emberforge is an independent project, not affiliated with Grinding Gear Games.</sub>
 
-<sub>Keywords: PoE autocraft, Path of Exile autocraft, PoE crafting tool, Path of Exile crafting helper, PoE 2 crafting, cluster jewel crafting, PoE 6 link, alteration spam, chaos spam, T17 map rolling, essence crafting, PoE craft bot, Advanced Stash Helper alternative, ASH alternative.</sub>
+<sub>Keywords: PoE autocraft, Path of Exile autocraft, PoE crafting tool, Path of Exile crafting helper, PoE 2 crafting, cluster jewel crafting, PoE 6 link, alteration spam, chaos spam, T17 map rolling, essence crafting, PoE craft bot, automated crafting tool for Path of Exile, Advanced Stash Helper alternative, ASH alternative, Path of Craft alternative.</sub>

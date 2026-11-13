@@ -180,29 +180,6 @@ Yes, that is one of Emberforge's main points: mod, base and unique texts exist f
 **How do I spam Orbs of Chance or Ancient Orbs until a specific unique?**
 Choose the “Orb of Chance spam” or “Ancient Orb spam” strategy and start typing the unique's name: the program suggests it from its database. Chance works one base until it turns unique; the Ancient Orb reforges a unique until the wanted one appears.
 
-## Emberforge, Advanced Stash Helper (ASH) and Path of Craft
-
-Looking for a PoE autocraft tool and know Advanced Stash Helper (poeautocraft.com) or Path of Craft (pathofcraft.net)? The short difference, based on their websites as of 13 November 2026:
-
-| | Emberforge | Advanced Stash Helper (ASH) | Path of Craft |
-|---|---|---|---|
-| Price | free, every feature | free trial; full $8/month ($4/month billed yearly) | Basic free; Premium $7/month, $15/league or $90 lifetime |
-| PoE 1 and PoE 2 | yes, one program | yes, one subscription | separate programs for PoE 1 and PoE 2 |
-| “One key press, one action” mode | yes, on by default | — | — |
-| Alteration, Augmentation, Chaos, essences | yes | yes (trial) | yes (Basic) |
-| Rare items: Regal, Exalted, Annulment | yes, with junk-mod reactions | Exalted and Annulment paid | Premium |
-| T17 map rolling | yes | map crafting in the trial; T16.5 and T17 paid | map crafting in Premium |
-| Cluster jewels | trade prices of every combo + one profile for all | combos (comb craft) paid | cluster price search in Premium |
-| Sockets and links (6-link) | yes | yes (trial) | yes (Basic) |
-| Socket colours (Chromatic Orb) | — | yes (trial) | yes (Basic) |
-| Orb of Chance, Ancient Orb | yes, up to the wanted unique | Chance in the trial, Ancient paid | Basic |
-| Second Orb of Alteration slot | yes | paid | not stated |
-| Harvest, fossils | fossils as custom currency; no Harvest | paid | Basic |
-| Game client | Russian and English | English only | not stated |
-| Russian interface | yes | yes | — |
-
-<sub>Emberforge is not affiliated with Advanced Stash Helper or Path of Craft; names belong to their owners. If something here is out of date, tell us and we will fix it.</sub>
-
 ---
 
 <sub>Source code is closed. Emberforge is an independent project, not affiliated with Grinding Gear Games.</sub>

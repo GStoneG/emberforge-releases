@@ -7,7 +7,7 @@
 <h1 align="center">Emberforge — free PoE autocraft and crafting helper for Path of Exile 1 and 2</h1>
 
 <p align="center">
-  <b>A free Path of Exile crafting tool for PoE 1 and PoE 2</b>, in English and Russian: alteration and chaos spam, Regal and Exalted chains, essences, T17 map rolling, cluster jewel crafting with trade prices, 6 sockets and 6-link.<br/>
+  <b>A free Path of Exile crafting tool for PoE 1 and PoE 2</b>, in English and Russian: alteration and chaos spam, Regal and Exalted ⇄ Annulment chains, essences, T17 map rolling, cluster jewel crafting with trade prices, 6 sockets and 6-link, Orb of Chance and Ancient Orb spam up to the unique you want.<br/>
   Craft faster without memorising mod texts and without fear of rerolling a good item.
 </p>
 
@@ -31,11 +31,14 @@
 
 - **PoE autocraft to your target:** set the mods, the program picks the next orb and stops on a hit.
 - **Alteration, Augmentation, Regal, Chaos, Exalted, Annulment, Scouring**, essences and any custom currency.
+- **Exalt ⇄ Annul loop** for rare items and cluster jewels: Regal → Exalted → Annulment → Exalted again until the target is there; a lost magic-item mod means Scouring and a new start.
+- **Unique items:** Orb of Chance spam on one base until the unique you want, and Ancient Orb spam until a unique with the right name. A database of 1,200+ uniques with suggestions as you type.
 - **Cluster jewel crafting:** trade prices of every notable combo and one profile for every profitable combo.
 - **T17 map and Waystone rolling** by item quantity and forbidden mods.
 - **6 sockets and 6-link:** Jeweller's Orb and Orb of Fusing.
 - **PoE 2:** Sinistral and Dextral Omens, Essences instead of Regal.
 - **Safe mode:** one key press, one action in the game, within GGG's rules.
+- **Any hotkeys:** step, auto, record and stop on any key, a Ctrl/Alt/Shift combination or a side mouse button.
 - **Free**, English and Russian interface, English and Russian game client.
 
 ## Why you need it
@@ -52,7 +55,7 @@ Crafting in Path of Exile means hundreds of identical actions: pick up an orb, c
 ## Features
 
 ### 🎯 Targets without memorising mods
-Start typing “life”, “cold res” or “attack speed” right in the mod box, and Emberforge suggests the mods exactly as the game writes them. The database has **8,600+ PoE1 mods and 3,500+ PoE2 mods** with texts of both the English and the Russian client. Set the minimum value, whether the mod must be a prefix or a suffix and the required tier (T1, T2…). Mark mods “Required” and ask for any N of the rest: e.g. life required + any 2 of 5 resistances.
+Start typing “life”, “cold res” or “attack speed” right in the mod box, and Emberforge suggests the mods exactly as the game writes them. The database has **8,600+ PoE1 mods and 3,500+ PoE2 mods** with texts of both the English and the Russian client. The **item base** (2,600+ PoE1 and PoE2 bases of gear, flasks and jewels; search by name or by class, e.g. “gloves”) and the **unique item** (1,200+ PoE1 uniques) are typed with suggestions too. The editor shows only the fields the chosen strategy uses. Set the minimum value, whether the mod must be a prefix or a suffix and the required tier (T1, T2…). Mark mods “Required” and ask for any N of the rest: e.g. life required + any 2 of 5 resistances.
 
 ### 🗺️ Rolling T17 maps and Waystones
 Set “Item Quantity ≥ 90%”, “More Currency”, “Pack Size” and a list of mods you never want (reflect, “players cannot regenerate”…). Emberforge chaoses the map until it is right. You can queue **several maps at once**: the program goes through them one by one.
@@ -65,12 +68,17 @@ Not just spamming one orb, but a chain that thinks about every step:
 - **Smart Augmentation:** looking for a suffix but Alteration only gave a prefix? Emberforge uses an Orb of Augmentation on the free slot instead of rerolling the item for nothing.
 - **Regal Orb** when the magic item has the wanted mods and no junk.
 - **Two lists: magic and rare item.** The “Magic item” list says what to roll before the Regal Orb: required mods plus “one of” the others (e.g. life + chaos **or** fire). The “Rare item” list is the finished item (e.g. life + any 2 of 5 resistances).
-- **Reactions after the Regal Orb and Exalts:** wanted mod → go on, junk → Annulment, Scouring and restart, or stop (set separately for the Regal and for Exalts). You choose how many Exalted Orbs go into one item. If a required magic-item mod is lost, the chain starts over.
+- **Reactions after the Regal Orb and Exalts:** wanted mod → go on, junk → Annulment, Scouring and restart, or stop (set separately for the Regal and for Exalts). You choose how many Exalted Orbs go into one item. If a magic-item mod is lost, the chain starts over.
+- **Exalt ⇄ Annul loop in one click** (“Loop: Regal → Exalt ⇄ Annul”): a junk mod after an Exalted Orb is removed with an Orb of Annulment; the Annulment took junk → Exalted again; junk still takes the wanted mod's place → another Annulment; it took a magic-item mod → Scouring and start over. After the Regal you choose: Exalt only when the wanted mod has room, or “Exalt, then Annul” even without room.
 - **Chain diagram:** the stages are shown as blocks and the current one lights up while crafting.
 - **Exalted Orb** while a missing mod can still land in a free slot; **Orb of Annulment** when a junk mod takes the space.
 - **Limits** for every orb (e.g. “at most 5 Exalted”) so you never burn expensive currency.
 
 Simple modes are there too: Chaos, Alteration, Essence or any other currency spam.
+
+### 💎 Unique items: Orb of Chance and Ancient Orb
+- **Orb of Chance spam:** the program works one base (Chance, a miss, Scouring, Chance again) until it turns into a unique (any, or one with the name you set), and only then moves on to the next base of the grid.
+- **Ancient Orb spam:** reforges a unique into another unique of the same class until the wanted name appears. The name can be written in English or Russian, either matches.
 
 ### 🛡️ Protection from mistakes
 - **Lock on hit.** Once the target appears, no more clicks happen however often you press.
@@ -103,7 +111,10 @@ When the missing mods roll only as prefixes or only as suffixes, the chain sugge
 ### 🪟 Works above the game
 A small translucent panel on the right of the game window shows the status, the number of attempts and hotkey hints. It does not catch the mouse and does not get in the way. Hotkeys work right inside the game.
 
-The overlay can be dragged with the mouse (the pin button unpins and pins it), and its opacity changes with the “−”/“+” buttons on it. While the program clicks, the overlay lets clicks through, and it never takes focus from the game.
+The overlay can sit in a corner of the game window or be dragged **anywhere on the screen**, even to a second monitor (the pin button unpins and pins it), and its opacity changes with the “−”/“+” buttons on it. While the program clicks, the overlay lets clicks through, and it never takes focus from the game.
+
+### ⌨️ Any hotkeys and mouse buttons
+In Settings, click an action's box and press the key you want: any key, a combination with Ctrl, Alt or Shift, the middle or a side mouse button. For example, the craft step on a side mouse button: click without leaving the game. The game does not get that press, and in other programs (a browser) the button works as usual.
 
 ### 🌐 English and Russian interface
 On first launch the program asks for the language; you can switch it in Settings at any time, no restart needed. The interface language is independent of the game: Russian and English clients of PoE1 and PoE2 are supported. Each profile stores its game client (Russian or English); switching it translates the conditions taken from the mod database automatically.
@@ -160,9 +171,18 @@ On the “Clusters” page pick the jewel and the enchant: the program collects 
 **How do I 6-link body armour?**
 The “Sockets and links” strategy: Jeweller's Orbs up to 6 sockets, then Orbs of Fusing up to 6 links. You can also choose sockets only or links only.
 
+**Can the craft step be on a side mouse button?**
+Yes. In Settings click the “Step” box and press a side mouse button (or the middle button, or any key with Ctrl/Alt/Shift). In the game the button runs a craft step; in a browser and other programs it works as usual.
+
+**Does it work with the Russian game client?**
+Yes, that is one of Emberforge's main points: mod, base and unique texts exist for both the Russian and the English client, and the program detects the client language from the game log.
+
+**How do I spam Orbs of Chance or Ancient Orbs until a specific unique?**
+Choose the “Orb of Chance spam” or “Ancient Orb spam” strategy and start typing the unique's name: the program suggests it from its database. Chance works one base until it turns unique; the Ancient Orb reforges a unique until the wanted one appears.
+
 ## Emberforge, Advanced Stash Helper (ASH) and Path of Craft
 
-Looking for a PoE autocraft tool and know Advanced Stash Helper (poeautocraft.com) or Path of Craft (pathofcraft.net)? The short difference, based on their websites as of November 2026:
+Looking for a PoE autocraft tool and know Advanced Stash Helper (poeautocraft.com) or Path of Craft (pathofcraft.net)? The short difference, based on their websites as of 13 November 2026:
 
 | | Emberforge | Advanced Stash Helper (ASH) | Path of Craft |
 |---|---|---|---|
@@ -174,7 +194,11 @@ Looking for a PoE autocraft tool and know Advanced Stash Helper (poeautocraft.co
 | T17 map rolling | yes | map crafting in the trial; T16.5 and T17 paid | map crafting in Premium |
 | Cluster jewels | trade prices of every combo + one profile for all | combos (comb craft) paid | cluster price search in Premium |
 | Sockets and links (6-link) | yes | yes (trial) | yes (Basic) |
+| Socket colours (Chromatic Orb) | — | yes (trial) | yes (Basic) |
+| Orb of Chance, Ancient Orb | yes, up to the wanted unique | Chance in the trial, Ancient paid | Basic |
+| Second Orb of Alteration slot | yes | paid | not stated |
 | Harvest, fossils | fossils as custom currency; no Harvest | paid | Basic |
+| Game client | Russian and English | English only | not stated |
 | Russian interface | yes | yes | — |
 
 <sub>Emberforge is not affiliated with Advanced Stash Helper or Path of Craft; names belong to their owners. If something here is out of date, tell us and we will fix it.</sub>

@@ -184,4 +184,4 @@ Choose the “Orb of Chance spam” or “Ancient Orb spam” strategy and start
 
 <sub>Source code is closed. Emberforge is an independent project, not affiliated with Grinding Gear Games.</sub>
 
-<sub>Keywords: PoE autocraft, Path of Exile autocraft, PoE crafting tool, Path of Exile crafting helper, PoE 2 crafting, cluster jewel crafting, PoE 6 link, alteration spam, chaos spam, T17 map rolling, essence crafting, PoE craft bot, automated crafting tool for Path of Exile, Advanced Stash Helper alternative, ASH alternative, Path of Craft alternative.</sub>
+<sub>Keywords: PoE autocraft, Path of Exile autocraft, PoE crafting tool, Path of Exile crafting helper, PoE 2 crafting, cluster jewel crafting, PoE 6 link, alteration spam, chaos spam, T17 map rolling, essence crafting, PoE craft bot, automated crafting tool for Path of Exile.</sub>

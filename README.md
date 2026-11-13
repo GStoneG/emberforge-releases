@@ -183,4 +183,4 @@ Emberforge делает то же, что и вы руками: двигает �
 
 <sub>Исходный код закрыт. Emberforge — независимый проект, не связанный с Grinding Gear Games.</sub>
 
-<sub>Ключевые слова: автокрафт poe, автокрафт path of exile, программа для крафта poe, помощник крафта poe, крафт poe 2, крафт кластеров poe, крафт кластерных самоцветов, 6 линк poe, спам сферой перемен, спам хаосами, роллинг карт t17, крафт эссенциями, бот для крафта poe, альтернатива Advanced Stash Helper, альтернатива Path of Craft, PoE autocraft, PoE crafting tool, automated crafting tool for Path of Exile.</sub>
+<sub>Ключевые слова: автокрафт poe, автокрафт path of exile, программа для крафта poe, помощник крафта poe, крафт poe 2, крафт кластеров poe, крафт кластерных самоцветов, 6 линк poe, спам сферой перемен, спам хаосами, роллинг карт t17, крафт эссенциями, бот для крафта poe, PoE autocraft, PoE crafting tool, automated crafting tool for Path of Exile.</sub>
